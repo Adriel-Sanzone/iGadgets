@@ -1,0 +1,110 @@
+body{
+    background-image: url("../img/fondo-menu.jpg");
+    background-repeat: none;
+    background-size:cover;
+}
+
+.titulo{
+    margin-top: 10px;
+    color: #00c9cc;
+}
+
+.container{
+    width: 30%;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-top: 200px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+.input-user p{
+    margin-bottom: 0px;
+    color: #00c9cc;
+}
+
+.input-user{
+    margin-bottom: 20px;
+}
+
+.input-user input{
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 2px #00c9cc;
+    color: rgb(204, 204, 204);
+}
+
+.input-contra p{
+    margin-bottom: 0px;
+    color: #00c9cc;
+}
+
+.input-contra{
+    margin-bottom: 30px;
+}
+
+.input-contra input{
+    width: 100%;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid 2px #00c9cc;
+    color: rgb(204, 204, 204);
+}
+
+.buttons{
+    display: flex;
+}
+
+.login{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #00c9cc;
+}
+.login:hover{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #009699;
+}
+
+.user-view{
+    margin-left: auto;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #00c9cc;
+}
+.user-view:hover{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-color: #009699;
+}
+
+footer{
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    color: #a3a3a3;
+    text-align: center;
+    padding: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: solid 1px rgba(0, 0, 0, 0.226);
+}
+
+@media(max-width: 768px){
+
+    body{
+        background-size: auto;
+        background-position: center;
+    }
+
+    .container{
+        width: 75%;
+        backdrop-filter: blur(6px);
+    }
+
+
+}

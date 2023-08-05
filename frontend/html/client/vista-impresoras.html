@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGadgets | Impresoras</title>
+    <script src="../Jquery.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="../../css/style-impresoras.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-2 sub-menu">
+            <ul>
+                <li id="logo">
+                    <a class="opcion-menu" href="vista-usuario.html">iGadgets</a>
+                </li>
+                <hr>
+                <li id="teclados">
+                    <a class="opcion-menu" href="vista-teclados.html">Teclados</a>
+                </li>
+                <li id="mouses">
+                    <a class="opcion-menu" href="vista-mouses.html">Mouses</a>
+                </li>
+                <li id="auriculares">
+                    <a class="opcion-menu" href="vista-auriculares.html">Auriculares</a>
+                </li>
+                <li id="monitores">
+                    <a class="opcion-menu" href="vista-monitores.html">Monitores</a>
+                </li>
+                <li id="almacenamiento">
+                    <a class="opcion-menu" href="vista-almacenamiento.html">Almacenamiento</a>
+                </li>
+                <li id="hardware">
+                    <a  class="opcion-menu" href="vista-hardware.html">Hardware</a>
+                </li>
+                <li id="seleccionado">
+                    <a  href="">Impresoras</a>
+                </li>
+                <li id="sillas">
+                    <a class="opcion-menu" href="vista-sillas.html">Sillas</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="col-md-10">
+            <h1 class="teclados-title">Impresoras</h1>
+            <div class="container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="nombre-tabla">NOMBRE</th>
+                            <th class="marca-tabla">MARCA</th>
+                            <th class="stock-tabla">DISPONIBLE</th>
+                            <th class="precio-tabla">PRECIO</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>    
+    </div>
+
+    <footer>
+        <div class="container text-white">
+            <p>&copy; iGadgets 2023  |  +54 1234 56-7890</p>
+            <br>
+            <div id="enlaces">
+                <a id="yt" href="https://www.youtube.com/">YouTube</a>
+                <a>|</a>
+                <a id="tw" href="https://twitter.com/home?lang=es">Twitter</a>
+                <a>|</a>
+                <a id="ig" href="https://instagram.com/">Instagram</a>
+                <a>|</a>
+                <a id="ds" href="https://discord.com/">Discord</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="../../js/impresoras.js"></script>
+    <script type="text/javascript">
+        CargarImpresoras();
+    </script>
+
+</body>
+
+</html>

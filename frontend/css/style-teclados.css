@@ -1,0 +1,239 @@
+body{
+    background-image: url("../img/fondo-user-view.jpg");
+    background-repeat: none;
+    background-size:cover;
+}
+
+.sub-menu{
+    background-color: #212529;
+    height: 100vh;
+    border-right: solid black 5px;
+}
+
+.sub-menu ul{
+    list-style: none;
+    padding: 0;
+}
+.teclados-title{
+    color: #ff3399;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.712);
+    border: 3px solid white;
+}
+
+.sub-menu ul li{
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.sub-menu ul li:hover{
+    margin-top: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton-comprar{
+    padding: 1px 2px 1px 2px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 3px solid #c5fbff;
+    text-decoration: none;
+    color: #c5fbff;
+    font-weight: bold;
+}
+.boton-comprar:hover{
+    padding: 1px 2px 1px 2px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 3px solid #00d5d8;
+    text-decoration: none;
+    color: #00d5d8;
+    font-weight: bold;
+}
+
+.opcion-menu{
+    text-decoration: none; 
+    color: black;
+    font-size:large;
+    font-weight: bold;
+}
+.opcion-menu:hover{
+    text-decoration: none; 
+    color: #c9c9c9;
+}
+
+.sub-menu ul #seleccionado{
+    background-color: #e60073;
+    padding: 15px;
+}
+.sub-menu ul #seleccionado:hover{
+    background-color: #e60073;
+    padding: 15px;
+}
+.sub-menu ul #seleccionado a{
+    text-decoration: none;
+    color: #ffb3d9;
+    font-size: large;
+    font-weight: bold;
+}
+
+#logo{
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00d5d8;
+}
+#logo a{
+    color: #003f41;
+    font-size: larger;
+}
+#teclados{
+    background-color: #ff3399;
+}
+#teclados:hover{
+    background-color: #e60073;
+}
+#teclados a:hover{
+    color: #ffb3d9;
+}
+#mouses{
+    background-color: #ff0000;
+}
+#mouses:hover{
+    background-color: #b30000;
+}
+#mouses a:hover{
+    color: #ff9999;
+}
+#auriculares{
+    background-color: #ff6600;
+}
+#auriculares:hover{
+    background-color: #b34700;
+}
+#auriculares a:hover{
+    color: #ffb380;
+}
+#monitores{
+    background-color: #ffcc00;
+}
+#monitores:hover{
+    background-color: #cca300;
+}
+#monitores a:hover{
+    color: #ffeb99;
+}
+#almacenamiento{
+    background-color: #99ff33;
+}
+#almacenamiento:hover{
+    background-color: #59b300;
+}
+#almacenamiento a:hover{
+    color: #ccff99;
+}
+#hardware{
+    background-color: #1affb2;
+}
+#hardware:hover{
+    background-color: #00b377;
+}
+#hardware a:hover{
+    color: #b3ffe6;
+}
+#impresoras{
+    background-color: #1a75ff;
+}
+#impresoras:hover{
+    background-color: #0052cc;
+}
+#impresoras a:hover{
+    color: #99c2ff;
+}
+#sillas{
+    background-color: #a64dff;
+}
+#sillas:hover{
+    background-color: #8000ff;
+}
+#sillas a:hover{
+    color: #d9b3ff;
+}
+
+hr{
+    color:white;
+}
+
+
+table{
+    width: 100%;
+}
+
+table td, th{
+    background-color: rgba(0, 0, 0, 0.664);
+    border: 3px solid white;
+}
+table thead{
+    text-align: center;
+    color: #ffb3d9;
+}
+table thead tr th{
+    padding: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+table tbody{
+    color: white;
+    text-align: center;
+}
+
+.nombre-tabla{
+    width: 40%;
+}
+.marca-tabla{
+    width: 30%;
+}
+.stock-tabla{
+    width: 10%;
+}
+.precio-tabla{
+    width: 40%;
+}
+
+
+footer{
+    backdrop-filter: blur(5px);
+    border-top: solid black 3px;
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+footer p{
+    color:#c5c5c5;
+}
+#enlaces{
+    text-align: center;
+}
+#enlaces a{
+    padding: 0 20px 10px 20px;
+    text-decoration: none;
+    color:#c5c5c5;
+}
+#yt:hover{
+    color: #ff01017a;
+}
+#tw:hover{
+    color: #1a98ee7a;
+}
+#ig:hover{
+    color: #ff006693;
+}
+#ds:hover{
+    color: #5562ea7a;
+}
